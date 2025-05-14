@@ -2906,102 +2906,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MLAB_MECHANICAL:HOLE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "HOLE"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "HOLE, X, M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "HOLE_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "HOLE_1_1"
-				(pin input line
-					(at 1.27 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -3650,17 +3554,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "MOUNTING HOLES"
-		(exclude_from_sim no)
-		(at 256.54 154.94 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "94ff9bbe-70c4-4ffa-a531-ed294d10d216")
-	)
 	(text "Power input voltage depends on type of assembled ADC convertor. \nLTC1865 supports 5V, LTC1865L is 3v3. "
 		(exclude_from_sim no)
 		(at 170.942 22.606 0)
@@ -3735,24 +3628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "312b68ac-cd9d-422d-9c8a-f8734b3887db")
-	)
-	(junction
-		(at 264.16 146.05)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "58c1ecee-2ccc-4f8a-b4e6-23c3cf236a4d")
-	)
-	(junction
-		(at 274.32 146.05)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "59aacdde-3508-4b50-869c-c6bc50b1ca1a")
-	)
-	(junction
-		(at 269.24 146.05)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "66067314-bef5-4ae7-a81e-7d24b0c33176")
 	)
 	(junction
 		(at 100.33 66.04)
@@ -3958,16 +3833,6 @@
 		)
 		(uuid "10626b6f-bc32-4a5d-8e44-9d55051a6735")
 	)
-	(polyline
-		(pts
-			(xy 251.46 144.78) (xy 281.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "118b4b55-667d-44cc-bb5b-4ceb1908b3dc")
-	)
 	(wire
 		(pts
 			(xy 238.76 104.14) (xy 243.84 104.14)
@@ -3997,16 +3862,6 @@
 			(type default)
 		)
 		(uuid "17bac955-efba-4110-98a9-ebd6b07d4202")
-	)
-	(polyline
-		(pts
-			(xy 251.46 144.78) (xy 251.46 154.94)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "1ac9077c-388d-45ff-948d-e937b753fa0e")
 	)
 	(wire
 		(pts
@@ -4060,16 +3915,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 147.32) (xy 274.32 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1f6630ff-6583-4cbf-a17b-2f4eafe022c8")
-	)
-	(wire
-		(pts
 			(xy 264.16 31.75) (xy 264.16 36.83)
 		)
 		(stroke
@@ -4077,16 +3922,6 @@
 			(type solid)
 		)
 		(uuid "22b317f5-c171-4dd1-96b3-c4f2782fbd62")
-	)
-	(wire
-		(pts
-			(xy 264.16 146.05) (xy 259.08 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "22caae73-7347-4e05-962e-6c254f46d588")
 	)
 	(wire
 		(pts
@@ -4278,16 +4113,6 @@
 		)
 		(uuid "4645d24c-f093-42aa-a3ce-80f5aa447694")
 	)
-	(polyline
-		(pts
-			(xy 281.94 144.78) (xy 281.94 154.94)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "4afbc4a3-b0dd-4335-8490-1b7f653c9cf7")
-	)
 	(wire
 		(pts
 			(xy 170.18 135.89) (xy 170.18 138.43)
@@ -4317,16 +4142,6 @@
 			(type default)
 		)
 		(uuid "50bc143d-82e2-436b-8091-220dcabb5ece")
-	)
-	(wire
-		(pts
-			(xy 279.4 146.05) (xy 274.32 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "57fdb1c8-2731-4b7c-951a-8c0e266e8db7")
 	)
 	(wire
 		(pts
@@ -4460,16 +4275,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 147.32) (xy 279.4 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "700035b0-51f5-44a6-ac3e-d5ae74b446cf")
-	)
-	(wire
-		(pts
 			(xy 113.03 148.59) (xy 120.65 148.59)
 		)
 		(stroke
@@ -4487,16 +4292,6 @@
 			(type solid)
 		)
 		(uuid "716869f0-0e0e-48c7-8814-1c6a65be958e")
-	)
-	(wire
-		(pts
-			(xy 259.08 146.05) (xy 259.08 147.32)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "721f87ca-030e-40fe-9218-efc03e8d8b8b")
 	)
 	(wire
 		(pts
@@ -4537,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "80be6655-87e1-4d9d-b786-9b247829861c")
-	)
-	(wire
-		(pts
-			(xy 269.24 146.05) (xy 264.16 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "85166eb8-e1f2-432b-ab24-f4fd3fe5a765")
 	)
 	(wire
 		(pts
@@ -4650,26 +4435,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 147.32) (xy 264.16 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ac36dbff-85cc-4701-a186-dcf099b36ee6")
-	)
-	(wire
-		(pts
-			(xy 269.24 147.32) (xy 269.24 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ad8348e1-c880-4eb6-90a6-d1b455b47e21")
-	)
-	(wire
-		(pts
 			(xy 212.09 29.21) (xy 231.14 29.21)
 		)
 		(stroke
@@ -4717,16 +4482,6 @@
 			(type solid)
 		)
 		(uuid "b124f9b7-9603-46a4-bd52-6f33441664c3")
-	)
-	(wire
-		(pts
-			(xy 274.32 146.05) (xy 269.24 146.05)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b2754eb0-5d02-489d-a791-c8fbe6b7b521")
 	)
 	(wire
 		(pts
@@ -4807,16 +4562,6 @@
 			(type default)
 		)
 		(uuid "c5d47003-f464-4799-9c81-f926f214a381")
-	)
-	(polyline
-		(pts
-			(xy 251.46 154.94) (xy 281.94 154.94)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "caa60f63-c973-4750-9f53-0acad9673d67")
 	)
 	(wire
 		(pts
@@ -7810,70 +7555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_MECHANICAL:HOLE")
-		(at 269.24 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d491ebf-a33b-475c-9f51-9b1d9c4d6cea")
-		(property "Reference" "M4"
-			(at 269.24 151.13 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 271.78 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3557afcb-7c9e-4941-a5ff-add11c08fcce")
-		)
-		(instances
-			(project "EFMADC01"
-				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
-					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 124.46 148.59 90)
 		(unit 1)
@@ -8579,70 +8260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_MECHANICAL:HOLE")
-		(at 259.08 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3115b8c9-136c-4646-bd26-9e2b8c57e3aa")
-		(property "Reference" "M2"
-			(at 259.08 151.13 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 261.62 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 259.08 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f84dbc54-35b6-4f17-8826-b8641d40090b")
-		)
-		(instances
-			(project "EFMADC01"
-				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
-					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 231.14 34.29 90)
 		(mirror x)
@@ -8801,69 +8418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 279.4 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41094b5b-8ea4-4a50-ae5c-c6aeaa1f1be0")
-		(property "Reference" "#PWR014"
-			(at 279.4 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c35d0565-5c3c-46ec-85bc-d80cb59e3601")
-		)
-		(instances
-			(project "EFMADC01"
-				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 124.46 142.24 90)
 		(unit 1)
@@ -8946,7 +8500,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "454a77fe-5b94-4021-bc8e-1990618eba8c")
 		(property "Reference" "FID2"
@@ -9076,70 +8630,6 @@
 			(project "EFMADC01"
 				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MLAB_MECHANICAL:HOLE")
-		(at 274.32 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f88d2a4-9409-4f14-98e0-64eebfdf62f7")
-		(property "Reference" "M5"
-			(at 274.32 151.13 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 276.86 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ed849b-e3f1-4ec0-ad4e-c224ad7f3570")
-		)
-		(instances
-			(project "EFMADC01"
-				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
-					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -9348,70 +8838,6 @@
 			(project "EFMADC01"
 				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MLAB_MECHANICAL:HOLE")
-		(at 264.16 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5977ea5f-e80d-42cd-8719-88cb023c538b")
-		(property "Reference" "M3"
-			(at 264.16 151.13 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 266.7 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Mlab_Mechanical:MountingHole_3mm"
-			(at 264.16 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 148.59 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c22d0a05-5cbf-4b62-8771-e8d041d25b03")
-		)
-		(instances
-			(project "EFMADC01"
-				(path "/6990ffb7-4abe-4df9-bce7-87822fc68e4c"
-					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -10299,7 +9725,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8bac2705-1b45-4460-b449-5a94a561d226")
 		(property "Reference" "FID1"
@@ -12184,7 +11610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Mlab_Pin_Headers:Straight_2x10"
 			(at 250.19 104.14 0)
 			(effects
 				(font
