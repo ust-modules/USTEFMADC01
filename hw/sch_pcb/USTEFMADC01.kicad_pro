@@ -59,40 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|152827500|101364500|eb4d1bbd-62dc-4f25-b1f2-3943e38af40b|cbfe7d93-8725-49eb-b6cd-56c10ffc1654",
-          ""
-        ],
-        [
-          "clearance|152827500|101864500|20f217b1-1762-4569-bd8d-53c086c79e26|eb4d1bbd-62dc-4f25-b1f2-3943e38af40b",
-          ""
-        ],
-        [
-          "clearance|152827500|102364500|1f114f77-fc43-4d50-b61a-ef907d0aa8e8|20f217b1-1762-4569-bd8d-53c086c79e26",
-          ""
-        ],
-        [
-          "clearance|152827500|102864500|71735a81-cae9-4111-85db-5cb3388b4c43|1f114f77-fc43-4d50-b61a-ef907d0aa8e8",
-          ""
-        ],
-        [
-          "clearance|157052500|101039500|28282ff8-010a-4696-89c6-113ac7a3a16d|ad9e5336-1c36-4e03-84d0-9f5acce645c5",
-          ""
-        ],
-        [
-          "clearance|157052500|101539500|ad9e5336-1c36-4e03-84d0-9f5acce645c5|5bba90a0-0355-4156-b34e-c093a5cd4003",
-          ""
-        ],
-        [
-          "clearance|157052500|102039500|5bba90a0-0355-4156-b34e-c093a5cd4003|4060b6c0-b767-4003-93a3-9914cc2ef50a",
-          ""
-        ],
-        [
-          "clearance|157052500|102539500|4060b6c0-b767-4003-93a3-9914cc2ef50a|07759cf0-6353-42cc-906d-dc59be9eaf9c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -283,20 +250,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_not_driven|1917700|1206500|26949438-1e70-4d12-8463-c9a1afabeae5|00000000-0000-0000-0000-000000000000|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|",
-        ""
-      ],
-      [
-        "pin_not_driven|1917700|1257300|be27488d-0f00-453c-ab4c-f28c0f0b88d1|00000000-0000-0000-0000-000000000000|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|",
-        ""
-      ],
-      [
-        "pin_not_driven|1917700|1282700|61d6294d-1407-487f-bb0f-8697fcc4108e|00000000-0000-0000-0000-000000000000|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|/6990ffb7-4abe-4df9-bce7-87822fc68e4c|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -521,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EFMADC01.kicad_pro",
+    "filename": "USTEFMADC01.kicad_pro",
     "version": 3
   },
   "net_settings": {
