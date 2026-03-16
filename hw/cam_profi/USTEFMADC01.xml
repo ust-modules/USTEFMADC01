@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USTEFMADC01.kicad_sch</source>
-    <date>2025-06-28T01:59:37+0000</date>
-    <tool>Eeschema 9.0.1+1</tool>
+    <date>2026-03-16T02:54:43+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>EFMADC01A</title>
@@ -27,11 +27,12 @@
     <comp ref="C1">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">6508260b462c6d9e720541f1</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -46,11 +47,12 @@
     <comp ref="C2">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">6508260b462c6d9e720541f1</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -65,11 +67,12 @@
     <comp ref="C3">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">6508260b462c6d9e720541f1</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -84,11 +87,12 @@
     <comp ref="C4">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba6</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -103,11 +107,12 @@
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -122,11 +127,12 @@
     <comp ref="C6">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -141,11 +147,12 @@
     <comp ref="C8">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -160,11 +167,12 @@
     <comp ref="C9">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -179,11 +187,12 @@
     <comp ref="C10">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -198,11 +207,12 @@
     <comp ref="C11">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">6508260b462c6d9e720541f1</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -217,11 +227,12 @@
     <comp ref="C12">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -236,11 +247,12 @@
     <comp ref="C13">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -275,11 +287,12 @@
     <comp ref="D2">
       <value>BZV55C-6,2V</value>
       <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>~</datasheet>
       <description>Zener diode</description>
       <fields>
         <field name="UST_ID">604b0326128750769e5b0f93</field>
         <field name="Footprint">Diode_SMD:D_MiniMELF</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Zener diode</field>
       </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
@@ -294,10 +307,11 @@
     <comp ref="FID1">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
       <description>Fiducial Marker</description>
       <fields>
         <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Fiducial Marker</field>
       </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
@@ -312,10 +326,11 @@
     <comp ref="FID2">
       <value>Fiducial</value>
       <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
       <description>Fiducial Marker</description>
       <fields>
         <field name="Footprint">Fiducial:Fiducial_1mm_Mask2mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Fiducial Marker</field>
       </fields>
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
@@ -346,11 +361,12 @@
     <comp ref="J9">
       <value>MCX</value>
       <footprint>Connector_Coaxial:SMA_Amphenol_901-144_Vertical</footprint>
+      <datasheet>~</datasheet>
       <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
       <fields>
         <field name="UST_ID">5fa10cc512875025b39779f6</field>
         <field name="Footprint">Connector_Coaxial:SMA_Amphenol_901-144_Vertical</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
       </fields>
       <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
@@ -381,10 +397,11 @@
     <comp ref="JP1">
       <value>Jumper_2_Bridged</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Net tie, 2 pins</description>
       <fields>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Net tie, 2 pins</field>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
@@ -399,11 +416,12 @@
     <comp ref="M1">
       <value>RFShield_TwoPieces</value>
       <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
+      <datasheet>~</datasheet>
       <description>Two-piece EMI RF shielding cabinet</description>
       <fields>
         <field name="UST_ID">5c72751c1287500b4e11301a</field>
         <field name="Footprint">RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Two-piece EMI RF shielding cabinet</field>
       </fields>
       <libsource lib="Device" part="RFShield_TwoPieces" description="Two-piece EMI RF shielding cabinet"/>
@@ -417,11 +435,12 @@
     <comp ref="R1">
       <value>270k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b6d</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -436,11 +455,12 @@
     <comp ref="R2">
       <value>3k3</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f895e</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -455,11 +475,12 @@
     <comp ref="R3">
       <value>33k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -474,11 +495,12 @@
     <comp ref="R4">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8970</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -493,11 +515,12 @@
     <comp ref="R5">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8970</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -512,11 +535,12 @@
     <comp ref="R6">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8970</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -531,11 +555,12 @@
     <comp ref="R7">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8970</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -550,11 +575,12 @@
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b6d</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -569,11 +595,12 @@
     <comp ref="R9">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b6d</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
