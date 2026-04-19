@@ -2,10 +2,9 @@
 
 The **EFMADC01** module is designed to provide an **analog front-end** and **ADC conversion** for [Electric Field Mill sensor](https://github.com/UniversalScientificTechnologies/THUNDERMILL01) development and experiments. It processes analog signals from the field mill electrodes and converts them into digital data for further processing.
 
-![EFMADC01 top](/doc/gen/img/EFMADC01-top.png)
+![EFMADC01 top](doc/gen/img/USTEFMADC01-top.png)
 
-![EFMADC01 bottom](/doc/gen/img/EFMADC01-bottom.png)
-
+![EFMADC01 bottom](/doc/gen/img/USTEFMADC01-bottom.png)
 
 
 ## Features
