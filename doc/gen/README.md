@@ -19,7 +19,6 @@ Silk screen: TOP / BOTTOM
 
 Special features:
 
-- Castellated pads
 - Edge plating
 
 Stackup:
@@ -70,7 +69,7 @@ Eurocircuits class: 4B
 Components count: (SMD/THT)
 
 - Top: 0/2 (THT)
-- Bottom: 30/1 (SMD + THT)
+- Bottom: 30/2 (SMD + THT)
 
 Defined tracks:
 
@@ -122,6 +121,10 @@ The stencil thickness is  0.12 mm.
 | Total  |              97 |     173.00 |      0.86 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
+
+
+
+
 
 
 

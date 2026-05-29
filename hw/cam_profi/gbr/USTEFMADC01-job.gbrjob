@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.7+1"
+      "Version": "10.0.1-10.0.1~ubuntu25.10.1"
     },
-    "CreationDate": "2026-05-16T03:38:22+00:00"
+    "CreationDate": "2026-05-29T20:21:26+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -20,7 +20,6 @@
     "LayerNumber": 2,
     "BoardThickness": 1.6,
     "Finish": "Immersion gold",
-    "Castellated": true,
     "EdgePlating": true
   },
   "DesignRules": [
