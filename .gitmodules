@@ -2,3 +2,4 @@
 	path = doc/assets
 	url = git@github.com:UniversalScientificTechnologies/USTassets.git
         shallow = 1
+        branch = KiCADv10
