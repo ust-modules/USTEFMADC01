@@ -19,7 +19,6 @@ Silk screen: TOP / BOTTOM
 
 Special features:
 
-- Castellated pads
 - Edge plating
 
 Stackup:
@@ -69,8 +68,8 @@ Eurocircuits class: 4B
 
 Components count: (SMD/THT)
 
-- Top: 0/2 (THT)
-- Bottom: 30/1 (SMD + THT)
+- Top: 0/4 (THT)
+- Bottom: 30/2 (SMD + THT)
 
 Defined tracks:
 
@@ -85,7 +84,7 @@ Used tracks:
 - 0.2 mm (8 mils) (5) defined: yes
 - 0.25 mm (10 mils) (24) defined: yes
 - 0.3 mm (12 mils) (25) defined: yes
-- 0.45 mm (18 mils) (91) defined: yes
+- 0.45 mm (18 mils) (92) defined: yes
 
 Defined vias:
 
@@ -97,8 +96,8 @@ Used vias:
 Holes (excluding vias):
 
 - 0.89 mm (35 mils) (26)
-- 1.5 mm (59 mils) (1)
-- 1.7 mm (67 mils) (4)
+- 1.5 mm (59 mils) (3)
+- 1.7 mm (67 mils) (12)
 
 Oval holes:
 
@@ -107,8 +106,8 @@ Drill tools (including vias and computing adjusts and rounding):
 
 - 0.5 mm (20 mils) (195)
 - 1.0 mm (39 mils) (26)
-- 1.6 mm (63 mils) (1)
-- 1.8 mm (71 mils) (4)
+- 1.6 mm (63 mils) (3)
+- 1.8 mm (71 mils) (12)
 
 Solder paste stats:
 
@@ -122,6 +121,10 @@ The stencil thickness is  0.12 mm.
 | Total  |              97 |     173.00 |      0.86 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
+
+
+
+
 
 
 

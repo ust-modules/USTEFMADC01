@@ -1,31 +1,33 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id
-1,Unpolarized capacitor,C,C2,10nF,C_0805_2012Metric,1,~,6508260b462c6d9e720541f1
-2,Unpolarized capacitor,C,C4,10nF,C_0805_2012Metric,1,~,5c70984812875079b91f8ba6
-3,Unpolarized capacitor,C,C1,100nF,C_0805_2012Metric,1,~,6508260b462c6d9e720541f1
-4,Unpolarized capacitor,C,C10,100nF,C_0805_2012Metric,1,~,5c70984712875079b91f8b4c
-5,Unpolarized capacitor,C,C11,100nF,C_0805_2012Metric,1,~,6508260b462c6d9e720541f1
-6,Unpolarized capacitor,C,C12,100nF,C_0805_2012Metric,1,~,5c70984712875079b91f8b4c
-7,Unpolarized capacitor,C,C13,100nF,C_0805_2012Metric,1,~,5c70984712875079b91f8b4c
-8,Unpolarized capacitor,C,C3,100nF,C_0805_2012Metric,1,~,6508260b462c6d9e720541f1
-9,Unpolarized capacitor,C,C5,100nF,C_0805_2012Metric,1,~,5c70984712875079b91f8b4c
-10,Unpolarized capacitor,C,C6,100nF,C_0805_2012Metric,1,~,5c70984712875079b91f8b4c
-11,Unpolarized capacitor,C,C8,10uF,C_0805_2012Metric,1,~,5c70984812875079b91f8bbe
-12,Unpolarized capacitor,C,C9,10uF,C_0805_2012Metric,1,~,5c70984812875079b91f8bbe
-13,Zener diode,D_Zener,D2,"BZV55C-6,2V",D_MiniMELF,1,~,604b0326128750769e5b0f93
+1,Unpolarized capacitor,C,C2,10nF,C_0805_2012Metric,1,,6508260b462c6d9e720541f1
+2,Unpolarized capacitor,C,C4,10nF,C_0805_2012Metric,1,,5c70984812875079b91f8ba6
+3,Unpolarized capacitor,C,C1,100nF,C_0805_2012Metric,1,,6508260b462c6d9e720541f1
+4,Unpolarized capacitor,C,C10,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c
+5,Unpolarized capacitor,C,C11,100nF,C_0805_2012Metric,1,,6508260b462c6d9e720541f1
+6,Unpolarized capacitor,C,C12,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c
+7,Unpolarized capacitor,C,C13,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c
+8,Unpolarized capacitor,C,C3,100nF,C_0805_2012Metric,1,,6508260b462c6d9e720541f1
+9,Unpolarized capacitor,C,C5,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c
+10,Unpolarized capacitor,C,C6,100nF,C_0805_2012Metric,1,,5c70984712875079b91f8b4c
+11,Unpolarized capacitor,C,C8,10uF,C_0805_2012Metric,1,,5c70984812875079b91f8bbe
+12,Unpolarized capacitor,C,C9,10uF,C_0805_2012Metric,1,,5c70984812875079b91f8bbe
+13,Zener diode,D_Zener,D2,"BZV55C-6,2V",D_MiniMELF,1,,604b0326128750769e5b0f93
 14,"600W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, DO-214AA",SM6T12A,D1,UCLAMP3301H.TCT,D_SMB,1,https://www.st.com/resource/en/datasheet/sm6t.pdf,612514fe1287500165a976f3
 15,2x10 2.54 mm pitch header,HEADER_2x10,J1001,HEADER_2x10,Straight_2x10,1,,
-16,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J9,MCX,SMA_Amphenol_901-144_Vertical,1,~,5fa10cc512875025b39779f6
-17,Two-piece EMI RF shielding cabinet,RFShield_TwoPieces,M1,RFShield_TwoPieces,Laird_Technologies_BMI-S-204-F_32.00x32.00mm,1,~,5c72751c1287500b4e11301a
-18,Resistor,R,R4,33R,R_0805_2012Metric,1,~,5c70984512875079b91f8970
-19,Resistor,R,R5,33R,R_0805_2012Metric,1,~,5c70984512875079b91f8970
-20,Resistor,R,R6,33R,R_0805_2012Metric,1,~,5c70984512875079b91f8970
-21,Resistor,R,R7,33R,R_0805_2012Metric,1,~,5c70984512875079b91f8970
-22,Resistor,R,R8,1k,R_0805_2012Metric,1,~,5c70984712875079b91f8b6d
-23,Resistor,R,R9,1k,R_0805_2012Metric,1,~,5c70984712875079b91f8b6d
-24,Resistor,R,R2,3k3,R_0805_2012Metric,1,~,5c70984512875079b91f895e
-25,Resistor,R,R3,33k,R_0805_2012Metric,1,~,5c70984512875079b91f8962
-26,Resistor,R,R1,270k,R_0805_2012Metric,1,~,5c70984712875079b91f8b6d
-27,"2.0V 25μA Micropower Voltage Reference, SOT-23",ISL21070CIH320Z-TK,U3,ISL21080CIH330Z-TK,SOT-23,1,http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf,67d36d64ee7fc534862c3ebc
-28,"Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface",LTC1865-MS,U4,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,651eae84462c6d9e7205573b
-29,"50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOT",OPA330xxDBV,U2,OPA314,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/opa330.pdf,5c70984412875079b91f879a
-30,"50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOT",OPA330xxDBV,U5,OPA314,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/opa330.pdf,5c70984412875079b91f879a
+16,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J10,MCX,SMA_Amphenol_901-144_Vertical,1,,5fa10cc512875025b39779f6
+17,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J11,MCX,SMA_Amphenol_901-144_Vertical,1,,5fa10cc512875025b39779f6
+18,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J9,MCX,SMA_Amphenol_901-144_Vertical,1,,5fa10cc512875025b39779f6
+19,Two-piece EMI RF shielding cabinet,RFShield_TwoPieces,M1,RFShield_TwoPieces,Laird_Technologies_BMI-S-204-F_32.00x32.00mm,1,,5c72751c1287500b4e11301a
+20,Resistor,R,R4,33R,R_0805_2012Metric,1,,5c70984512875079b91f8970
+21,Resistor,R,R5,33R,R_0805_2012Metric,1,,5c70984512875079b91f8970
+22,Resistor,R,R6,33R,R_0805_2012Metric,1,,5c70984512875079b91f8970
+23,Resistor,R,R7,33R,R_0805_2012Metric,1,,5c70984512875079b91f8970
+24,Resistor,R,R8,1k,R_0805_2012Metric,1,,5c70984712875079b91f8b6d
+25,Resistor,R,R9,1k,R_0805_2012Metric,1,,5c70984712875079b91f8b6d
+26,Resistor,R,R2,3k3,R_0805_2012Metric,1,,5c70984512875079b91f895e
+27,Resistor,R,R3,33k,R_0805_2012Metric,1,,5c70984512875079b91f8962
+28,Resistor,R,R1,270k,R_0805_2012Metric,1,,5c70984712875079b91f8b6d
+29,"2.0V 25μA Micropower Voltage Reference, SOT-23",ISL21070CIH320Z-TK,U3,ISL21080CIH330Z-TK,SOT-23,1,http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf,67d36d64ee7fc534862c3ebc
+30,"Dual channel 16-bit SAR Analog to Digital Converter, 5V supply, 150ksps, SPI interface",LTC1865-MS,U4,LTC1865-MS,MSOP-10_3x3mm_P0.5mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf,651eae84462c6d9e7205573b
+31,"50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOT",OPA330xxDBV,U2,OPA314,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/opa330.pdf,5c70984412875079b91f879a
+32,"50μV V OS, 0.25μV/°C, 35μA CMOS OPERATIONAL AMPLIFIERS, Zerø-Drift Series, SOT",OPA330xxDBV,U5,OPA314,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/opa330.pdf,5c70984412875079b91f879a
