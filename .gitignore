@@ -20,3 +20,4 @@ fp-info-cache
 *.sch-bak
 *.tmp
 *.000
+.history/
