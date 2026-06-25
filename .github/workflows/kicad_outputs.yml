@@ -48,8 +48,9 @@ jobs:
           print(json.dumps(matrix))
           ")
           else
-            REPO="${{ github.event.repository.name }}"
-            MATRIX="{\"include\":[{\"name\":\"$REPO\",\"dir\":\"hw/sch_pcb\",\"schema\":\"hw/sch_pcb/$REPO.kicad_sch\",\"board\":\"hw/sch_pcb/$REPO.kicad_pcb\"}]}"
+            PCB=$(find hw/sch_pcb -maxdepth 1 -name "*.kicad_pcb" | head -1)
+            NAME=$(basename "$PCB" .kicad_pcb)
+            MATRIX="{\"include\":[{\"name\":\"$NAME\",\"dir\":\"hw/sch_pcb\",\"schema\":\"hw/sch_pcb/$NAME.kicad_sch\",\"board\":\"hw/sch_pcb/$NAME.kicad_pcb\"}]}"
           fi
           echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
 
@@ -68,7 +69,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/erc.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -90,7 +91,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/drc.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -112,7 +113,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/schematics.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -140,14 +141,14 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/placement.kibot.yaml
           schema: ${{ matrix.schema }}
           board: ${{ matrix.board }}
           dir: ${{ env.dir }}_docs/${{ matrix.name }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/xml.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -190,7 +191,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/report.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -218,7 +219,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/ibom.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -247,7 +248,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/gerbers.kibot.yaml
           schema: ${{ matrix.schema }}
@@ -279,14 +280,14 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/cad.kibot.yaml
           schema: ${{ matrix.schema }}
           board: ${{ matrix.board }}
           dir: ${{ env.dir }}_cad/${{ matrix.name }}
 
-      - uses: INTI-CMNB/KiBot@v2_dk9
+      - uses: INTI-CMNB/KiBot@v2_dk10
         with:
           config: ${{ env.kibot }}/render.kibot.yaml
           schema: ${{ matrix.schema }}
